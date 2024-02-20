@@ -69,7 +69,7 @@ add(5, 7) = 12
 ```
 
 
-### predecessor(x)函数
+### predecessor(x) function
 Define a URM program to calculate the predecessor of a given number.
 ```bash
 import urm
