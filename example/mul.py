@@ -2,13 +2,13 @@ import urm
 from urm import C, J, Z, S
 
 """
-Defines a URM program to calculate the sum of two numbers using the URM model.
+Defines a URM program to calculate the multiplication of two numbers using the URM model.
 The program uses the concept of Unlimited Register Machines for computation.
 
 Parameters:
 - input_R1: Contains the first number (x)
 - input_R2: Contains the second number (y)
-- output_R0: Will contain the result of adding x and y
+- output_R0: Will contain the result of multiplying x and y
 
 The URM program consists of a series of instructions designed to add x and y.
 """
