@@ -31,7 +31,6 @@ mul_instruct = urm.Instructions(
     Z(4),           # I14
     Z(5),           # I15
     C(1, 0),        # I16
-    # 结束程序
 )
 
 # Define the function to perform multiplication using the URM simulator.
