@@ -318,7 +318,6 @@ class URMSimulator(object):
         count = 0
 
         while current_line < len(exec_instructions):
-            print(count)
             if count > safety_count:
                 raise ValueError("The number of cycles exceeded the safe number.")
 
