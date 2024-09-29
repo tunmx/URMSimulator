@@ -1,9 +1,15 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages, find_namespace_packages
 
 setup(
     name='urm',
     version='1.1.0',
     packages=find_packages(include=['urm', 'urm.*']),
+    package_data={'urm': ['gui/programs/*', 
+                          "gui/urm-visualization/build_latest/*", 
+                          "gui/urm-visualization/build_latest/static/*", 
+                          "gui/urm-visualization/build_latest/static/css/*", 
+                          "gui/urm-visualization/build_latest/static/js/*", 
+                          '*.json', '*.css', '*.js', '*.html', '*.png', '*.ico', '*.txt']},
     include_package_data=True,
     description='Unlimited Register Machine (URM) Simulator',
     long_description=open('README.md').read(),
