@@ -1,0 +1,169 @@
+{
+    "instructions": [
+        {
+            "operator": "Z",
+            "params": [
+                0
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                1,
+                0,
+                25
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                2,
+                0,
+                24
+            ]
+        },
+        {
+            "operator": "Z",
+            "params": [
+                3
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                3,
+                1,
+                25
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                4
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                1,
+                4,
+                11
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                3
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                4
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                0,
+                0,
+                7
+            ]
+        },
+        {
+            "operator": "C",
+            "params": [
+                3,
+                1
+            ]
+        },
+        {
+            "operator": "Z",
+            "params": [
+                4
+            ]
+        },
+        {
+            "operator": "Z",
+            "params": [
+                3
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                3,
+                2,
+                25
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                4
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                2,
+                4,
+                20
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                3
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                4
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                0,
+                0,
+                16
+            ]
+        },
+        {
+            "operator": "C",
+            "params": [
+                3,
+                2
+            ]
+        },
+        {
+            "operator": "Z",
+            "params": [
+                4
+            ]
+        },
+        {
+            "operator": "Z",
+            "params": [
+                3
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                0
+            ]
+        }
+    ],
+    "safetyLimit": 1000
+}

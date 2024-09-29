@@ -1,0 +1,102 @@
+{
+    "instructions": [
+        {
+            "operator": "C",
+            "params": [
+                1,
+                4
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                3,
+                2,
+                14
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                5,
+                4,
+                10
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                5
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                5,
+                4,
+                9
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                5
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                0
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                0,
+                0,
+                5
+            ]
+        },
+        {
+            "operator": "Z",
+            "params": [
+                5
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                3
+            ]
+        },
+        {
+            "operator": "C",
+            "params": [
+                0,
+                4
+            ]
+        },
+        {
+            "operator": "Z",
+            "params": [
+                0
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "operator": "C",
+            "params": [
+                4,
+                0
+            ]
+        }
+    ],
+    "safetyLimit": 1000
+}

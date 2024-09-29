@@ -1,0 +1,47 @@
+{
+    "instructions": [
+        {
+            "operator": "J",
+            "params": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                2
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                1,
+                2,
+                0
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                0
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                2
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                0,
+                0,
+                3
+            ]
+        }
+    ],
+    "safetyLimit": 1000
+}

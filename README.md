@@ -5,6 +5,7 @@ URM Simulator is a Python library for simulating the operations of an Unlimited 
 - **Support for the Four Basic URM Operations**: Zero, Successor, Copy, and Jump.
 - **Program Execution and Tracking**: Offers a simulator for executing URM programs and tracking their execution process.
 - **Custom URM Programs**: Allows users to define and execute custom URM programs and check the results of the execution.
+- **Support Visual**: Add the GUI functionality to support visual representation of each step in URM instruction execution. This feature will facilitate users' learning and analysis of the instruction execution process.
 
 ## Advanced Features
 
@@ -24,8 +25,30 @@ pip install urm
 
 Make sure your Python environment is version 3.7 or higher.
 
+## Usage Examples for GUI
 
-## Usage Examples
+You can directly use the GUI functionality for a more convenient and intuitive way to build URM programs and visualize their execution process. You only need to execute the following command in the command line:
+
+```python
+# Run the GUI program
+urm gui
+```
+
+The program will use port 8975. If there's a conflict, you can modify the port number yourself.
+
+```python
+# Modify the port
+urm gui --port 8975
+```
+
+After successfully launching the GUI program, you can open the URM program panel by accessing http://localhost:8975/index through your web browser.
+
+![creator page](images/page-1.png)
+
+![steps page](images/page-2.png)
+
+
+## Usage Examples for Python Code
 
 Below is an example of how to define and execute a simple URM program using the URM Simulator library:
 
