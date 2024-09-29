@@ -1,0 +1,116 @@
+{
+    "instructions": [
+        {
+            "operator": "J",
+            "params": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                0
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                2
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                1,
+                2,
+                0
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                2
+            ]
+        },
+        {
+            "operator": "C",
+            "params": [
+                0,
+                4
+            ]
+        },
+        {
+            "operator": "Z",
+            "params": [
+                0
+            ]
+        },
+        {
+            "operator": "Z",
+            "params": [
+                5
+            ]
+        },
+        {
+            "operator": "C",
+            "params": [
+                4,
+                0
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                5,
+                3,
+                15
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                0
+            ]
+        },
+        {
+            "operator": "S",
+            "params": [
+                5
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                1,
+                1,
+                11
+            ]
+        },
+        {
+            "operator": "C",
+            "params": [
+                4,
+                3
+            ]
+        },
+        {
+            "operator": "J",
+            "params": [
+                2,
+                2,
+                5
+            ]
+        }
+    ],
+    "safetyLimit": 1000
+}
